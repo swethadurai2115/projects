@@ -1,0 +1,61 @@
+
+.sales-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.sales-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.sales-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 120px);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.sales-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.sales-container button:hover {
+    background-color: #45a049;
+}
+
+.sales-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.sales-container li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sales-container li button {
+    background-color: #e74c3c;
+}
+
+.sales-container li button:hover {
+    background-color: #c0392b;
+}
